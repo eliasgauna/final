@@ -157,14 +157,14 @@ $colorTextChecked: grey;
       stroke-width: 3;
       stroke-opacity: 1;
       transform: scale(0.8) rotate(40deg);
-      //animation-timing-function: cubic-bezier(.89,.01,.95,.51);
+     
     }
 
     100% {
       stroke-width: 0;
       stroke-opacity: 0;
       transform: scale(1.1) rotate(60deg);
-      //animation-timing-function: cubic-bezier(.08,.56,.04,.98);
+    
     }
   }
 }
@@ -225,6 +225,11 @@ $colorTextChecked: grey;
   }
 }
 
+.sumador {
+  background-color: #1E52F1;
+  color: #000;
+  border-radius: 10px;
+}
 
 /* footer */
 footer {
